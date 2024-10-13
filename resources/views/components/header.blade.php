@@ -1,4 +1,4 @@
-<div class="flex flex-row w-full py-8 place-content-between">
+<div name="Header section" id="header" class="flex flex-row w-full py-8 place-content-between">
     <div class="flex">
         <img src="{{ asset('/assets/logo.png') }}" height="42">
         <p class="text-3xl font-semibold self-center">Lalasia</p>

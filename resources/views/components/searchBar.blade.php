@@ -17,5 +17,7 @@
                       </svg>'
         prefix_is_icon="true"
         suffix='<button id="searchButton"
-                    onclick="searchProperty()" class="bg-primary text-white px-12 py-4 font-semibold tracking-wide">Search</button>' />
+                    onclick="searchProperty()" class="bg-primary text-white px-12 py-4 font-semibold tracking-wide">Search</button>'
+                    />
 </div>
+
