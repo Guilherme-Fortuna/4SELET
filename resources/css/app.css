@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
     /* Headings / H1 to H5 */
     h1 {
@@ -70,17 +71,25 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 32.4px;
+        @apply text-paragraph;
     }
 
     p2 {
         font-size: 16px;
         font-weight: 500;
         line-height: 28.8px;
+        @apply text-paragraph;
     }
 
     p3 {
         font-size: 14px;
         font-weight: 500;
         line-height: 25.2px;
+        @apply text-paragraph;
+    }
+
+    img {
+        max-height: 100%;
+        max-width: 100%;
     }
 }

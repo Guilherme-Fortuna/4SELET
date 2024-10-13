@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-const colors = require('tailwindcss/colors')
+
 export default {
     content: [
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
         "./resources/**/*.vue",
+        "./src/**/*.{html,js}",
     ],
     theme: {
         colors: {
@@ -53,6 +54,9 @@ export default {
                 400: '#FDFDFD',
                 250: '#FEFEFE',
             },
+            white: '#fff',
+            black: '#000000',
+
 
         },
         extend: {},
