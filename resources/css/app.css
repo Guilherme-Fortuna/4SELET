@@ -65,22 +65,22 @@
         line-height: 18.2px;
     }
 
-    /* Paragraphs / P1 tp P4 */
+    /* Paragraphs / P1 tp P3 */
     p1 {
         font-size: 18px;
-        font-weight: bold;
+        font-weight: 500;
         line-height: 32.4px;
     }
 
     p2 {
         font-size: 16px;
-        font-weight: bold;
+        font-weight: 500;
         line-height: 28.8px;
     }
 
     p3 {
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 500;
         line-height: 25.2px;
     }
 }
