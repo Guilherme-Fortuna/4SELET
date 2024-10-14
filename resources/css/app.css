@@ -1,95 +1,139 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 
-@layer base {
-    /* Headings / H1 to H5 */
-    h1 {
-        font-size: 64px;
-        font-weight: bold;
-        line-height: 83.2px;
-    }
 
-    h2 {
-        font-size: 44px;
-        font-weight: bold;
-        line-height: 57.2px;
-    }
+body {
+    /* @apply flex flex-col mx-auto w-full; */
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1440px;
+    width: 100%;
+}
 
-    h3 {
-        font-size: 24px;
-        font-weight: bold;
-        line-height: 31.2px;
-    }
+/* Header and Footer section */
+.logo-text {
+    font-size: 30px;
+    font-weight: 600;
+}
 
-    h4 {
-        font-size: 20px;
-        font-weight: bold;
-        line-height: 26px;
-    }
+.logo-image {
+    width: 42px;
+    height: 42px;
+}
 
-    h5 {
-        font-size: 18px;
-        font-weight: bold;
-        line-height: 23.4px;
-    }
+.header-logo {
+    width: auto;
+}
 
-    h6 {
-        font-size: 16px;
-        font-weight: bold;
-        line-height: 20.8px;
-    }
+.header-buttons-center {
+    /* @apply flex self-center justify-center gap-x-10; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    column-gap: 4.5rem;
+}
 
-    h6+ {
-        font-size: 14px;
-        font-weight: bold;
-        line-height: 18.2px;
-    }
+.header-buttons-end {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    column-gap: 2rem;
+}
 
-    /* Labels / L1 to L3 */
-    l1 {
-        font-size: 18px;
-        font-weight: bold;
-        line-height: 23.4px;
-    }
+.border-header {
+    border-bottom-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(228 228 230 / var(--tw-border-opacity));
+}
 
-    l2 {
-        font-size: 16px;
-        font-weight: bold;
-        line-height: 20.8px;
-    }
 
-    l3 {
-        font-size: 14px;
-        font-weight: bold;
-        line-height: 18.2px;
-    }
+/* Headings / H1 to H5 */
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 83.2px;
+}
 
-    /* Paragraphs / P1 tp P3 */
-    p1 {
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 32.4px;
-        @apply text-paragraph;
-    }
+h2 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 57.2px;
+}
 
-    p2 {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 28.8px;
-        @apply text-paragraph;
-    }
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 31.2px;
+}
 
-    p3 {
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 25.2px;
-        @apply text-paragraph;
-    }
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+}
 
-    img {
-        max-height: 100%;
-        max-width: 100%;
-    }
+h5 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23.4px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20.8px;
+}
+
+h6+ {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18.2px;
+}
+
+/* Labels / L1 to L3 */
+l1 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23.4px;
+}
+
+l2 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20.8px;
+}
+
+l3 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18.2px;
+}
+
+/* Paragraphs / P1 tp P3 */
+p1 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32.4px;
+    --tw-text-opacity: 1;
+    color: rgb(175 173 181 / var(--tw-text-opacity));
+    /* #afadb5 */
+}
+
+p2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    --tw-text-opacity: 1;
+    color: rgb(175 173 181 / var(--tw-text-opacity));
+    /* #afadb5 */
+}
+
+p3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25.2px;
+    --tw-text-opacity: 1;
+    color: rgb(175 173 181 / var(--tw-text-opacity));
+    /* #afadb5 */
 }

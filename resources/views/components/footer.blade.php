@@ -1,16 +1,16 @@
 <div name="Footer section" id="footer" class="border-t border-paragraph-400">
-    <div class="py-12 grid grid-cols-2">
-        <div class="flex flex-col my-auto">
+    <div class="py-6 grid grid-cols-2">
+        <div class="flex flex-col">
             <div class="flex">
-                <img src="{{ asset('/assets/logo.png') }}" height="42">
-                <p class="text-3xl font-semibold self-center">Lalasia</p>
+                <img src="{{ asset('/assets/logo.png') }}" class="logo-image">
+                <p class="logo-text">Lalasia</p>
             </div>
             <div class="flex pt-8">
                 <p3 class="text-black">Lalasia is digital agency that help you make better experience iaculis cras in.</p3>
             </div>
         </div>
 
-        <div class="grid grid-cols-3 my-auto place-self-end gap-x-12">
+        <div class="grid grid-cols-3 place-self-end gap-x-12">
             <div class="flex flex-col gap-y-4">
                 <h4>Product</h4>
                 <a href="#"><p3>New Arrivals</p3></a>
@@ -34,6 +34,4 @@
             </div>
         </div>
     </div>
-
-
 </div>
