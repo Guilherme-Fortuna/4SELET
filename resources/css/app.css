@@ -22,12 +22,7 @@ body {
     height: 42px;
 }
 
-.header-logo {
-    width: auto;
-}
-
 .header-buttons-center {
-    /* @apply flex self-center justify-center gap-x-10; */
     display: flex;
     justify-content: center;
     align-self: center;
