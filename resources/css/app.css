@@ -1,14 +1,15 @@
 
 
 
-body {
-    /* @apply flex flex-col mx-auto w-full; */
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1440px;
-    width: 100%;
+.layout-container {
+    width: min(1440px, 100%);
+    margin: 0 auto;
+    overflow-x: hidden !important;
+}
+
+.layout-header {
+    width: 100% o !important;
+    grid-column: 3;
 }
 
 /* Header and Footer section */
@@ -23,10 +24,11 @@ body {
 }
 
 .header-buttons-center {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    column-gap: 4.5rem;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    color: black;
+    /* #afadb5 */
 }
 
 .header-buttons-end {
@@ -42,6 +44,14 @@ body {
     border-color: rgb(228 228 230 / var(--tw-border-opacity));
 }
 
+.text-custom-secondary {
+    color: #FFB23F;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* Headings / H1 to H5 */
 h1 {
@@ -132,3 +142,5 @@ p3 {
     color: rgb(175 173 181 / var(--tw-text-opacity));
     /* #afadb5 */
 }
+
+
