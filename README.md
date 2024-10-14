@@ -40,3 +40,10 @@ O protótipo inclui uma versão mobile com um menu colapsado. Descreva como voc�
 
 6. **Caso seja do seu interesse,**  crie outras funcionalidades e páginas que
 complementam o design do protótipo seguindo essa linha de estilos.
+
+# Comandos para rodar o projeto
+
+1. ``composer install`` e ``npm install`` para instalar as dependências/pacotes
+2. ``php artisan migrate`` para rodar a criação do banco de dados
+3. Criar uma cópia do arquivo ``.env.desenv`` e renomear a cópia para ``.env``
+4. Para startar a aplicação use ``npm run dev`` e ``php artisan serve``
