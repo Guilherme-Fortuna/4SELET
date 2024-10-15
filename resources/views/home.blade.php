@@ -23,7 +23,7 @@
         <x-header />
 
         <!-- Welcome section -->
-        <div name="Welcome section"
+        <section id="welcome"
             class="container body-section text-center py-5">
             <div class="position-relative">
                 <h1>Discover Furniture With</h1>
@@ -47,10 +47,10 @@
                     alt="Lalasia Logo">
 
             </div>
-        </div>
+        </section>
 
         <!-- Benefits section -->
-        <div name="Benefits section" class="container body-section">
+        <section id="benefits" class="container body-section">
             <div class="row justify-content-between">
                 <div class="col-4">
                     <h5 class="text-custom-secondary">Benefits</h5>
@@ -95,10 +95,10 @@
                 </div>
             </div>
 
-        </div>
+        </section>
 
         <!-- Our product section -->
-        <div name="Our product section"
+        <section id="products"
             class="py-5 text-center container body-section">
             <h5 class="text-custom-secondary">Product</h5>
             <h2>Our popular product</h2>
@@ -106,10 +106,10 @@
                 Eget ipsum dignissim placerat nisi, adipiscing
                 mauris non.</p3>
             <h3>Implementar carrossel</h3>
-        </div>
+        </section>
 
         <!-- Our product section -->
-        <div class="container body-section">
+        <section id="our-product" class="container body-section">
             <div name="Our product section" class="row">
                 <div class="col-md-6">
                     <h5 class="text-custom-secondary">Our product</h5>
@@ -146,25 +146,25 @@
                         class="img-fluid mt-3">
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Testimonials section -->
-        <div name="Testimonials section" class="py-5 text-center">
+        <section id="testimonials" class="py-5 text-center">
             <h5 class="text-custom-secondary">Testimonials</h5>
             <h2>What our customer say</h2>
             <p3 class="pt-4">Pellentesque etiam blandit in tincidunt at donec.
                 Eget ipsum dignissim placerat nisi, adipiscing
                 mauris non.</p3>
-            <h3>Adicionar carrossel de Avaliações</h3>
-        </div>
+        </section>
+        <x-carousel-testimonials />
 
         <!-- Articles section -->
-        <div name="Articles section" class="py-5 text-center">
+        <section id="articles" class="py-5 text-center">
             <h5 class="text-custom-secondary">Articles</h5>
             <h2>The best furniture comes from Lalasia</h2>
             <p3>Pellentesque etiam blandit in tincidunt at donec.</p3>
             <h3>Card + carrossel</h3>
-        </div>
+        </section>
 
         <x-footer />
 

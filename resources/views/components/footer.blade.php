@@ -6,7 +6,7 @@
                 <p class="logo-text">Lalasia</p>
             </div>
             <div class="pt-4">
-                <p class="text-dark">Lalasia is a digital agency that helps you make better experiences iaculis cras in.</p>
+                <p1 class="text-dark">Lalasia is a digital agency that helps you make better experiences iaculis cras in.</p1>
             </div>
         </div>
 
@@ -14,25 +14,25 @@
             <div class="row">
                 <div class="col d-flex flex-column gap-2">
                     <h4>Product</h4>
-                    <a href="#"><p>New Arrivals</p></a>
-                    <a href="#"><p>Best Selling</p></a>
-                    <a href="#"><p>Home Decor</p></a>
-                    <a href="#"><p>Kitchen Set</p></a>
+                    <a href="#"><span>New Arrivals</span></a>
+                    <a href="#"><span>Best Selling</span></a>
+                    <a href="#"><span>Home Decor</span></a>
+                    <a href="#"><span>Kitchen Set</span></a>
                 </div>
 
                 <div class="col d-flex flex-column gap-2">
                     <h4>Services</h4>
-                    <a href="#"><p>Catalog</p></a>
-                    <a href="#"><p>Blog</p></a>
-                    <a href="#"><p>FaQ</p></a>
-                    <a href="#"><p>Pricing</p></a>
+                    <a href="#"><span>Catalog</span></a>
+                    <a href="#"><span>Blog</span></a>
+                    <a href="#"><span>FaQ</span></a>
+                    <a href="#"><span>Pricing</span></a>
                 </div>
 
                 <div class="col d-flex flex-column gap-2">
                     <h4>Follow Us</h4>
-                    <a href="#"><p>Facebook</p></a>
-                    <a href="#"><p>Instagram</p></a>
-                    <a href="#"><p>Twitter</p></a>
+                    <a href="#"><span>Facebook</span></a>
+                    <a href="#"><span>Instagram</span></a>
+                    <a href="#"><span>Twitter</span></a>
                 </div>
             </div>
         </div>
