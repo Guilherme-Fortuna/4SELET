@@ -75,15 +75,6 @@
     width: 62px;
 }
 
-section {
-    padding-bottom: 8em;
-}
-
-section, #heading {
-    padding-top: 4em;
-    padding-bottom: 8em;
-}
-
 .arrow-spiral {
     position: absolute;
     top: 0;
@@ -100,6 +91,15 @@ section, #heading {
 
 .header-buttons-center, a {
     margin-right: 1.5em;
+}
+
+section {
+    padding-bottom: 8em;
+}
+
+section, #heading {
+    padding-top: 4em;
+    padding-bottom: 8em;
 }
 
 a {

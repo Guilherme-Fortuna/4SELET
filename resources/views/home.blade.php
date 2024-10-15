@@ -22,7 +22,7 @@
 
     <x-benefits />
 
-
+    <x-products-presentation />
     <!-- Our product section -->
     <x-our-product />
 
