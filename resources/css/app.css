@@ -5,6 +5,7 @@
     width: min(1440px, 100%);
     margin: 0 auto;
     overflow-x: hidden !important;
+    background-color: #fff;
 }
 
 .layout-header {
@@ -16,6 +17,7 @@
 .logo-text {
     font-size: 30px;
     font-weight: 600;
+    align-self: center;
 }
 
 .logo-image {
@@ -28,6 +30,7 @@
     font-weight: 600;
     line-height: 28.8px;
     color: black;
+    align-self: center;
     /* #afadb5 */
 }
 
@@ -48,6 +51,31 @@
     color: #FFB23F;
 }
 
+.img-card-benefits {
+    height: 62px;
+    width: 62px;
+}
+
+.body-section {
+    padding-top: 8em;
+    padding-bottom: 8em;
+
+}
+
+.arrow-spiral {
+    position: absolute;
+    top: 0%;
+    left: 3%;
+}
+
+#btn-search-property {
+    width: 15%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23.4px;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -58,42 +86,49 @@ h1 {
     font-size: 64px;
     font-weight: bold;
     line-height: 83.2px;
+    color: #151411;
 }
 
 h2 {
     font-size: 44px;
     font-weight: bold;
     line-height: 57.2px;
+    color: #151411;
 }
 
 h3 {
     font-size: 24px;
     font-weight: bold;
     line-height: 31.2px;
+    color: #151411;
 }
 
 h4 {
     font-size: 20px;
     font-weight: bold;
     line-height: 26px;
+    color: #151411;
 }
 
 h5 {
     font-size: 18px;
     font-weight: bold;
     line-height: 23.4px;
+    color: #151411;
 }
 
 h6 {
     font-size: 16px;
     font-weight: bold;
     line-height: 20.8px;
+    color: #151411;
 }
 
 h6+ {
     font-size: 14px;
     font-weight: bold;
     line-height: 18.2px;
+    color: #151411;
 }
 
 /* Labels / L1 to L3 */
@@ -118,7 +153,7 @@ l3 {
 /* Paragraphs / P1 tp P3 */
 p1 {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 32.4px;
     --tw-text-opacity: 1;
     color: rgb(175 173 181 / var(--tw-text-opacity));
@@ -127,7 +162,7 @@ p1 {
 
 p2 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 28.8px;
     --tw-text-opacity: 1;
     color: rgb(175 173 181 / var(--tw-text-opacity));
@@ -136,11 +171,9 @@ p2 {
 
 p3 {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 25.2px;
     --tw-text-opacity: 1;
     color: rgb(175 173 181 / var(--tw-text-opacity));
     /* #afadb5 */
 }
-
-
