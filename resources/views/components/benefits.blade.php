@@ -1,5 +1,5 @@
 <section id="benefits" class="container">
-    <div class="row justify-content-between">
+    <div class="row justify-content-between pb-5">
         <div class="col-12 col-md-4">
             <h5 class="text-custom-secondary">Benefits</h5>
             <h2>Benefits when using our services</h2>
@@ -8,6 +8,7 @@
             <p1>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.</p1>
         </div>
     </div>
+
     <div class="row gap-4">
         <div class="shadow-sm p-4 rounded card-body col col-md-3">
             <img class="img-card-benefits img-fluid" src="{{ asset('/assets/3square.png') }}" alt="Many Choices">

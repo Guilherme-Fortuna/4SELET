@@ -10,7 +10,7 @@
     'resources/sass/app.scss',
     'resources/js/app.js',
     'resources/css/app.css',
-    ])
+])
     <title>4Selet - Furniture Website (Avaliação)</title>
 </head>
 
@@ -31,9 +31,10 @@
     <x-testimonials-carousel />
 
     <x-articles />
-
-    <x-footer />
-
 </body>
+    <footer>
+        <x-footer />
+    </footer>
+
 
 </html>
