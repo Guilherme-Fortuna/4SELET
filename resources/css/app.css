@@ -28,10 +28,15 @@
     grid-column: 3;
 }
 
-/* Header and Footer section */
-.logo-text,
-.header-buttons-center {
+.logo-text{
     font-size: 30px;
+    font-weight: 600;
+    align-self: center;
+}
+
+
+.header-buttons-center {
+    font-size: 18px;
     font-weight: 600;
     align-self: center;
 }
@@ -41,9 +46,10 @@
     height: 42px;
 }
 
-.header-buttons-center,
+.offcanvas-body,
 .header-buttons-start {
     font-size: 18px;
+    font-weight: 500;
     line-height: 28.8px;
     color: black;
 }
@@ -69,8 +75,13 @@
     width: 62px;
 }
 
-.body-section {
-    padding: 8em 0;
+section {
+    padding-bottom: 8em;
+}
+
+section, #heading {
+    padding-top: 4em;
+    padding-bottom: 8em;
 }
 
 .arrow-spiral {
@@ -85,6 +96,10 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 23.4px;
+}
+
+.header-buttons-center, a {
+    margin-right: 1.5em;
 }
 
 a {

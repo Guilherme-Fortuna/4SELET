@@ -1,4 +1,4 @@
-<div class="row w-100">
+<section class="row w-100">
     <div class="shadow-sm p-4 rounded card-body col-md-3">
         <img class="img-card-benefits"
             src="{{ asset('/assets/3square.png') }}"
@@ -29,4 +29,4 @@
             tincidunt at donec. Eget ipsum dignissim placerat nisi,
             adipiscing mauris non.</p3>
     </div>
-</div>
+</section>
