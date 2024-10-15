@@ -1,4 +1,4 @@
-<div name="Footer section" id="footer" class="border-top border-secondary">
+<div name="Footer section" id="footer" class="border-top container">
     <div class="py-4 row">
         <div class="col-6 d-flex flex-column">
             <div class="d-flex">
