@@ -16,6 +16,10 @@
     --font-p3-size: 14px;
 }
 
+body {
+    font-family: 'Eudoxus Sans';
+}
+
 .layout-container {
     width: min(1440px, 100%);
     margin: 0 auto;
@@ -76,6 +80,7 @@
 }
 
 .arrow-spiral {
+
     position: absolute;
     top: 0;
     left: 3%;
@@ -92,6 +97,28 @@
 .header-buttons-center, a {
     margin-right: 1.5em;
 }
+
+.bi-quote {
+    font-size: 50px;
+    background: linear-gradient(90deg, #40B4A6, #A6D8D2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.card-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100% ;
+}
+
+
+
+#testimonialCarousel {
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+}
+
 
 section {
     padding-bottom: 8em;
@@ -167,6 +194,7 @@ l3 {
 p1, p2, p3 {
     font-weight: 400;
     color: #AFADB4;
+    display: block;
 }
 
 p1 {
@@ -182,4 +210,106 @@ p2 {
 p3 {
     font-size: var(--font-p3-size);
     line-height: calc(var(--font-p3-size) * 1.8);
+}
+
+
+
+.carousel-custom {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 500ms ease-in-out;
+    will-change: transform;
+}
+
+.card {
+    flex: 0 0 33.33%; /* Cada card ocupa um terço do carrossel */
+    margin: 15 0 15 0;
+    border: 0;
+}
+
+#testimonialCarousel .card-text {
+    padding-top: 20;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Ajuste para garantir que os cards laterais fiquem parcialmente visíveis */
+.carousel-custom .card {
+    transform: scale(0.9); /* Cards laterais menores */
+}
+
+.carousel-custom .card-center {
+    transform: scale(1); /* Card central em tamanho normal */
+    opacity: 1;
+}
+
+/* Responsivo para mobile */
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        flex: 0 0 75%; /* Em dispositivos móveis, exibir um card por vez */
+    }
+
+
+}
+
+.card-img-product {
+    width: 394px;
+    height: 360px;
+}
+
+.card-product {
+    max-width: 394px;
+    height: auto;
+    flex: 0 0 ; /* Cada card ocupa um terço do carrossel */
+    margin: 15 0 15;
+    background-color: transparent;
+}
+
+.card-product {
+    flex: 1 0 25%; /* Cada card ocupa um terço do carrossel */
+    margin: 15 0;
+    background-color: transparent;
+    transition: transform 500ms ease-in-out;
+
+}
+
+.card-product:nth-child(2),
+.card-product:nth-child(3),
+.card-product:nth-child(4) {
+    transform: scale(1); /* Centraliza o segundo e terceiro cards em tamanho completo */
+}
+
+.card-product-body {
+    background-color: transparent;
+}
+
+
+
+.carousel-custom .card-product {
+    transform: scale(0.9); /* Cards laterais menores */
+}
+
+.card-product #product-type {
+    padding: 5 0 5 ;
+    font-weight: 700;
+}
+
+.card-product #product-price {
+    padding: 5 0;
+    font-weight: 700;
+}
+
+.carousel-control-next {
+    background-image: none;
+    background-color: #40B4A6;
+    border-radius: 100%;
+
 }
