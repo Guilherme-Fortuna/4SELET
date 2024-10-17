@@ -1,5 +1,5 @@
 <div id="testimonialCarousel" class="carousel-custom container-fluid">
-    <div class="carousel-track">
+    <div class="carousel-track-2">
         <!-- Card 1 -->
         <div class="card">
             <div class="card-body shadow-lg text-start text-start">

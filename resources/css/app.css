@@ -220,10 +220,20 @@ p3 {
     width: 100%;
 }
 
-.carousel-track {
+.carousel-track-1 {
     display: flex;
-    transition: transform 500ms ease-in-out;
+    transition: transform 800ms ease-in-out;
     will-change: transform;
+}
+
+.carousel-track-2 {
+    display: flex;
+    transition: transform 800ms ease-in-out;
+    will-change: transform;
+}
+
+.card-img-product::after{
+    padding-right: 2em;
 }
 
 .card {
@@ -265,13 +275,7 @@ p3 {
     height: 360px;
 }
 
-.card-product {
-    max-width: 394px;
-    height: auto;
-    flex: 0 0 ; /* Cada card ocupa um terço do carrossel */
-    margin: 15 0 15;
-    background-color: transparent;
-}
+
 
 .card-product {
     flex: 1 0 25%; /* Cada card ocupa um terço do carrossel */
@@ -312,4 +316,61 @@ p3 {
     background-color: #40B4A6;
     border-radius: 100%;
 
+}
+
+
+/* Estilos gerais para o carrossel de produtos */
+#productCarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card-product {
+    min-width: 394px;
+    background-color: transparent;
+}
+
+.card-product {
+
+    flex: 0 0 ; /* Cada card ocupa um terço do carrossel */
+    margin: 15 0 15;
+    background-color: transparent;
+}
+
+/* Estilo para os botões circulares de navegação */
+#prevButton, #nextButton {
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: #000;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#prevButton {
+    left: 10px;
+}
+
+#nextButton {
+    right: 10px;
+}
+
+/* Ícones dos botões de navegação */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.navbar {
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
