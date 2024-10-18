@@ -40,13 +40,13 @@
     }
 </style>
 
-<form action="#">
-    <div class="input-group form-floating form-floating-transition mx-auto">
+<form action="#" id="searchBar">
+    <div class="input-group form-floating form-floating-transition mx-auto shadow-lg">
         <!-- Ícone de lupa no início do input -->
         <input id="search-property-bar" type="text" class="form-control form-control-icon-placeholder" placeholder=" ">
         <label for="search-property-bar">Search property</label>
 
         <!-- Botão Search ao final do input -->
-        <button id="btn-search-property" class="btn btn-primary" type="button">Search</button>
+        <button id="btn-search-property" class="btn btn-primary shadow-lg" type="button">Search</button>
     </div>
 </form>

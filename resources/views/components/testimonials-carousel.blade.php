@@ -1,3 +1,4 @@
+<section>
 <div id="testimonialCarousel" class="carousel-custom container-fluid">
     <div class="carousel-track-2">
         <!-- Card 1 -->
@@ -46,3 +47,4 @@
         </div>
     </div>
 </div>
+</section>

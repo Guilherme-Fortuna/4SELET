@@ -15,7 +15,7 @@
     <title>4Selet - Furniture Website (Avaliação)</title>
 </head>
 
-<body>
+<body onload="document.body.style.opacity='1'">
 
     <x-navbar />
 

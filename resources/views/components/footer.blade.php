@@ -1,40 +1,41 @@
-<div name="Footer section" id="footer" class="border-top container">
-    <div class="py-4 row">
-        <div class="col-6 d-flex flex-column">
-            <div class="d-flex">
+<div class="footer border-top container py-4">
+    <div class="row">
+        <div class="col-md-6 d-flex flex-column align-items-start">
+            <div class="d-flex align-items-center">
                 <img src="{{ asset('/assets/logo.png') }}" class="logo-image">
                 <p class="logo-text">Lalasia</p>
             </div>
-            <div class="pt-4">
-                <p1 class="text-dark">Lalasia is a digital agency that helps you make better experiences iaculis cras in.</p1>
-            </div>
+            <p class="mt-3">Lalasia is a digital agency that helps you make better experiences iaculis cras in.</p>
         </div>
 
-        <div class="col-6 d-flex justify-content-end">
-            <div class="row">
-                <div class="col d-flex flex-column gap-2">
-                    <h4>Product</h4>
-                    <a href="#"><span>New Arrivals</span></a>
-                    <a href="#"><span>Best Selling</span></a>
-                    <a href="#"><span>Home Decor</span></a>
-                    <a href="#"><span>Kitchen Set</span></a>
-                </div>
-
-                <div class="col d-flex flex-column gap-2">
-                    <h4>Services</h4>
-                    <a href="#"><span>Catalog</span></a>
-                    <a href="#"><span>Blog</span></a>
-                    <a href="#"><span>FaQ</span></a>
-                    <a href="#"><span>Pricing</span></a>
-                </div>
-
-                <div class="col d-flex flex-column gap-2">
-                    <h4>Follow Us</h4>
-                    <a href="#"><span>Facebook</span></a>
-                    <a href="#"><span>Instagram</span></a>
-                    <a href="#"><span>Twitter</span></a>
-                </div>
+            <div class="col-md-2 d-flex flex-column align-items-start">
+                <h4 class="ps-3" class="ps-3">Product</h4>
+                <ul class="nav flex-column ">
+                    <li class="nav-item "><a class="nav-link" href="#">New Arrivals</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Best Selling</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Home Decor</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kitchen Set</a></li>
+                </ul>
             </div>
-        </div>
+
+            <div class="col-md-2 d-flex flex-column align-items-start">
+                <h4 class="ps-3">Services</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#">Catalog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">FaQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-md-2 d-flex flex-column align-items-start">
+                <h4 class="ps-3">Follow Us</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link" href="#">Facebook</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Instagram</a></li>
+                    <li class="nav-item"><a class="nav-link"   href="#">Twitter</a></li>
+                </ul>
+            </div>
     </div>
 </div>

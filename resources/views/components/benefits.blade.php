@@ -1,10 +1,10 @@
 <section id="benefits" class="container">
     <div class="row justify-content-between pb-5">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-5">
             <h5 class="text-custom-secondary">Benefits</h5>
             <h2>Benefits when using our services</h2>
         </div>
-        <div class="col-12 col-md-4 align-self-end">
+        <div class="col-12 col-md-5 align-content-center">
             <p1>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.</p1>
         </div>
     </div>
