@@ -10,7 +10,7 @@
                     <h3 class="main-article-title">Create Cozy Dinning Room Vibes</h3>
                     <p1 class="main-article-description">Combination of wood and wool</p1>
 
-                    <h4 class="nav-link" href="#" class="text-white">Read More</h4>
+                    <h4 class="nav-link text-white" href="#">Read More</h4>
                 </div>
             </div>
         </div>

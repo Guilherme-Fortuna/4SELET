@@ -460,7 +460,8 @@ p3 {
     font-weight: 500;
     color: #000;
 }
-.nav-link, .text-white {
+
+.text-white {
     color: #fff;
 }
 
